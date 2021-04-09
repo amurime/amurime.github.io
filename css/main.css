@@ -1,5 +1,30 @@
+@import url(//db.onlinewebfonts.com/c/77d394fa0c1103c648f880b77cb4a32f?family=FuturaLTW01-Medium);
+
+
+@font-face {
+    font-family: 'bernailloregular';
+    src: url('bernaillo-font/bernaillo-webfont.woff2') format('woff2'),
+         url('bernaillo-font/bernaillo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltbook';
+    src: url('futura-lt-book-font/futuralt-book-webfont.woff2') format('woff2'),
+         url('futura-lt-book-font/futuralt-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: "Dosis", sans-serif; }
+  font-family: 'futura_ltbook';
+  font-weight: 300;
+  font-size: 15px;}
+
+.bg-alt {
+  background-color: rgb(247,245,241);
+}
 
 /* Home Page Style */
 .ww-home-page {
@@ -48,6 +73,12 @@ body {
   top: 0; }
 
 /* Nav Bar Style */
+.ww-nav-bar .navbar-brand {
+  font-family: "bernailloregular", cursive;
+  font-size: 30px;
+  color: rgb(150, 134, 83);
+}
+
 .ww-nav-bar .heart {
   fill: #f26147;
   position: relative;
@@ -73,9 +104,18 @@ body {
     transform: scale(1); } }
 
 .ww-nav-bar .nav-item {
-  font-size: 18px;
+  transition: color 0.4s ease 0s;
+  font-size: 12px;
   padding: 5px 0 5px 16px;
-  font-weight: 500; }
+}
+
+.ww-nav-bar .nav-item .nav-link {
+  color: rgb(150,134,83);
+}
+
+.flag {
+  height: 15px;
+}
 
 /* Wedding Event Style */
 .ww-wedding-event ul {
@@ -170,7 +210,9 @@ body {
 
 /* Common Style */
 .ww-title {
-  font-family: "Great Vibes", cursive; }
+  font-family: "bernailloregular", cursive;
+  color: rgb(150, 134, 83);
+  font-size: 50px; }
 
 .ww-section {
   padding: 100px 0; }
