@@ -1,6 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/77d394fa0c1103c648f880b77cb4a32f?family=FuturaLTW01-Medium);
-
-
 @font-face {
     font-family: 'bernailloregular';
     src: url('bernaillo-font/bernaillo-webfont.woff2') format('woff2'),
@@ -17,10 +14,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'futura_ltbook';
+    src: url('futuralt-book-webfont.woff2') format('woff2'),
+         url('futuralt-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: 'futura_ltbook';
   font-weight: 300;
-  font-size: 15px;}
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  letter-spacing: 0.15em;
+}
 
 .bg-alt {
   background-color: rgb(247,245,241);
@@ -28,7 +39,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/noto.jpg") no-repeat center center;
+  background: url("../images/noto3.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
@@ -212,7 +223,10 @@ body {
 .ww-title {
   font-family: "bernailloregular", cursive;
   color: rgb(150, 134, 83);
-  font-size: 50px; }
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
 
 .ww-section {
   padding: 100px 0; }
