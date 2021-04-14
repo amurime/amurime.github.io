@@ -31,6 +31,7 @@ body {
 .subtitle {
   font-size: 18px;
   letter-spacing: 0.15em;
+  color: rgb(150, 134, 83);
 }
 
 .bg-alt {
@@ -126,6 +127,7 @@ body {
 
 .flag {
   height: 15px;
+  padding-bottom: 4px;
 }
 
 /* Wedding Event Style */
