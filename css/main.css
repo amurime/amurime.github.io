@@ -60,6 +60,26 @@ body {
   text-align: center;
 }
 
+.hotel-card {
+  background-color: white;
+  position: relative;
+}
+
+.hotel-card img {
+  width: 100%;
+}
+
+.hotel-title {
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  height: 40px;
+  width: 150px;
+  background-color: white;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+}
+
 .bg-alt {
   background-color: rgb(247,245,241);
 }
