@@ -15,9 +15,17 @@
 }
 
 @font-face {
-    font-family: 'futura_ltbook';
-    src: url('futuralt-book-webfont.woff2') format('woff2'),
-         url('futuralt-book-webfont.woff') format('woff');
+    font-family: 'futura_lt_heavy';
+    src: url('futura-lt-heavy-font/futuralt-heavy-webfont.woff2') format('woff2'),
+         url('futura-lt-heavy-font/futuralt-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_lt_bold';
+    src: url('futura-lt-bold-font/futuralt-bold-webfont.woff2') format('woff2'),
+         url('futura-lt-bold-font/futuralt-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,6 +34,14 @@ body {
   font-family: 'futura_ltbook';
   font-weight: 300;
   font-size: 16px;
+}
+
+.location {
+  text-decoration: underline;
+}
+
+.bold {
+  font-family: 'futura_lt_heavy';
 }
 
 .subtitle {
