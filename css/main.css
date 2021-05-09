@@ -62,7 +62,7 @@ body {
 
 .hotel-card {
   background-color: white;
-  position: relative;
+  /* position: relative; */
 }
 
 .hotel-card img {
@@ -70,14 +70,48 @@ body {
 }
 
 .hotel-title {
-  position: absolute;
-  top: 100%;
+  /* position: absolute; */
+  /* top: 100%;
   left: 15px;
   height: 40px;
-  width: 150px;
+  width: 150px; */
   background-color: white;
   font-size: 18px;
   letter-spacing: 0.15em;
+}
+
+.but {
+  position: relative;
+  border-style: solid;
+  border-color: rgb(150,134,83);
+  width: 100px;
+  height: 48px;
+}
+
+.but:hover{
+   background-color: black;
+   border-color: black;
+}
+
+.but a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.price {
+  color: rgb(150, 134, 83);
 }
 
 .bg-alt {
