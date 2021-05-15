@@ -110,6 +110,12 @@ body {
   text-decoration: none;
 }
 
+.large {
+  width: 160px;
+  height: 40px;
+  margin: auto;
+}
+
 .price {
   color: rgb(150, 134, 83);
 }
