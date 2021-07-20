@@ -124,6 +124,10 @@ body {
   background-color: rgb(247,245,241);
 }
 
+.iban {
+  text-align: center;
+}
+
 /* Home Page Style */
 .ww-home-page {
   background: url("../images/noto3.jpg") no-repeat center center;
