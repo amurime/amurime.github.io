@@ -40,6 +40,11 @@ body {
   text-decoration: underline;
 }
 
+.link {
+  text-decoration: underline;
+  color: none;
+}
+
 .bold {
   font-family: 'futura_lt_heavy';
 }
